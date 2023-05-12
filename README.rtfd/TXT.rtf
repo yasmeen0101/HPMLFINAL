@@ -1,0 +1,52 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2634
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww24900\viewh13040\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 URL: https://github.com/yasmeen0101/HPMLFINAL\
+\
+Project Description: This project aims to optimize the common problem of Hand Gesture Recognition. The Hand Gesture Recognition Dataset by Leap Motion and published on Kaggle was used. Both PyTorch and Tensorflow are utilized throughout the project. Weight and Biases and Weight Quantization are also implemented. This project resulted in an accuracy of 99.2% for 10 classes of gestures.\
+\
+Code Repository: Two files exist in the code repository. Both are a copy of the Google Colab Notebook used for this project, one is the .ipynb and the other the .py. Upon opening these notebooks you will find various links, including sample code references and the Weights & Biases report produced for this project.\
+\
+Commands: No commands are necessary to run this notebook. A Kaggle API code and access to a google drive are required.\
+\
+Results:\
+\
+Model Architecture found to be the best performing.\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic -t4QNsSGFQ57PSGtPeloIRX8EkNLvSRQSNxGTr722He3YbyC61PsGDzlHuHLvdURZQvSXLnwHN0WJYHwMEmoX_DOxQZ8WERC46gjXbMPXdqq1kAg-yEwZb0QoLfIudCJgQkxA-VTGE40GexrtZWaj89Z3Q=s2048.png \width3800 \height11900 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf0 \
+The following samples are after optimizing model architecture. These are a few success cases. Although the hands are at various angles, the model is still able to identify the gesture.
+\f0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+{{\NeXTGraphic Screen Shot 2023-05-11 at 11.36.26 PM.png \width17280 \height8860 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\
+\
+Weights and Bias provided a method towards achieving a loss of >0.01 at only 5 epochs! It also revealed that batch size was by far the most important hyper-parameter and, surprisingly, dropout was the least. However, introducing dropout did play an important part in optimizing the network accuracy when testing architecture.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic cF1yB5pdE9hzpszfpCz2Gg2H4NbX49KdV1Mz8JQlOerChApth5AOzvLk9X0w8JpYrXhk05EHy3WYuGrXF3hXk2NyDADnry7PBAE2fQoHhbpEdEjww5s3mX8btXJW-zLhnThGmVCJ6mhVPXIaYjQhuDaS8w=s2048.png \width40960 \height7540 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic xzyFfAhrtAjskW0WAcPPyePqPNMqrVsUlL25SuOquZgx1SVGHtmzBS0tb2WKWFpdKGHRJpexohlUP8hVZxY753UeX8kpXaxtSVPnsJ5GhoG_vaGnssHsMV-sjvJ1WCx3NiPpEAO0G8Op9N4latCdBXnaYA=s2048.png \width13240 \height4380 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\
+Final Accuracies\'85\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Screen Shot 2023-05-11 at 11.39.53 PM.png \width11000 \height4840 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+}
